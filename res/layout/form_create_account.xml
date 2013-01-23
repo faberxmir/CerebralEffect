@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id=				"@+id/ttv_create_user_heading"
+        android:layout_width=	"match_parent"
+        android:layout_height=	"wrap_content"
+        android:text=			"@string/form_create_user_description"
+        android:textColor=		"@color/holo_blue"
+        />
+    <LinearLayout
+        android:id=				"@+id/layout_create_clanname"
+        android:layout_width=	"match_parent"
+        android:layout_height=	"wrap_content"
+        android:orientation=	"horizontal"
+        >
+        <TextView 
+            android:id=					"@+id/ttv_create_clanname"
+            android:layout_width=		"0dp"
+            android:layout_height=		"wrap_content"
+            android:layout_weight=		"1"
+            android:text=				"@string/type_clanname"
+            />
+        <EditText 
+            android:id=					"@+id/edt_create_clanname"
+            android:layout_width=		"0dp"
+            android:layout_height=		"wrap_content"
+            android:layout_weight=		"1"
+            android:hint=				"@string/type_clanname"
+            />
+        <ImageView 
+            android:id= 				"@+id/error_ok"
+            android:layout_width=		"0dp"
+            android:layout_height=		"wrap_content"
+            android:contentDescription=	"@string/should_have_been"
+            />
+    </LinearLayout>
+     
+    <LinearLayout
+        android:id=				"@+id/layout_create_password"
+        android:layout_width=	"match_parent"
+        android:layout_height=	"wrap_content"
+        android:orientation=	"horizontal"
+        >
+        <TextView 
+            android:id=					"@+id/ttv_create_password"
+            android:layout_width=		"0dp"
+            android:layout_height=		"wrap_content"
+            android:layout_weight=		"1"
+            android:text=				"@string/type_password"
+            />
+        <EditText 
+            android:id=					"@+id/edt_create_password"
+            android:layout_width=		"0dp"
+            android:layout_height=		"wrap_content"
+            android:layout_weight=		"1"
+            android:hint=				"@string/password_size"
+            android:inputType=			"textPassword"
+            />
+    </LinearLayout>   
+     
+    <LinearLayout
+        android:id=				"@+id/layout_confirm_password"
+        android:layout_width=	"match_parent"
+        android:layout_height=	"wrap_content"
+        android:orientation=	"horizontal"
+        >
+        <TextView 
+            android:id=					"@+id/ttv_confirm_password"
+            android:layout_width=		"0dp"
+            android:layout_height=		"wrap_content"
+            android:layout_weight=		"1"
+            android:text=				"@string/confirm_password"
+            />
+        <EditText 
+            android:id=					"@+id/edt_confirm_password"
+            android:layout_width=		"0dp"
+            android:layout_height=		"wrap_content"
+            android:layout_weight=		"1"
+            android:hint=				"@string/password_size"
+            android:inputType=			"textPassword"
+            />"
+    </LinearLayout>  
+</LinearLayout>

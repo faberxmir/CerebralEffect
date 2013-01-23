@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width=		"match_parent"
+        android:layout_height=		"match_parent"
+        android:text=				"title"
+        android:layout_gravity=		"center"
+        />
+    <LinearLayout
+        android:layout_width=		"match_parent"
+        android:layout_height=		"wrap_content"
+        android:orientation=		"horizontal">
+        
+	    <TextView 
+	        android:id=					"@+id/ttv_missiontitle"
+	        android:layout_width=		"0dp"
+	        android:layout_height=		"wrap_content"
+	        android:text=				"missiontitle"
+	        android:layout_weight=		"1"/>
+	    <EditText 
+	        android:id=					"@+id/edt_missiontitle"
+	        android:layout_width=		"0dp" 
+	        android:layout_height=		"wrap_content"
+	        android:hint=				"missiontitle"
+	        android:maxLength=			"15"
+	        android:layout_weight=		"1"
+	        />
+    </LinearLayout>"
+	
+    <LinearLayout
+        android:layout_width=		"match_parent"
+        android:layout_height=		"wrap_content"
+        android:orientation=		"horizontal">
+        
+	    <TextView 
+	        android:id=					"@+id/ttv_cityname"
+	        android:layout_width=		"0dp"
+	        android:layout_height=		"wrap_content"
+	        android:text=				"cityname"
+	        android:layout_weight=		"1"/>
+	    <EditText 
+	        android:id=					"@+id/edt_cityname"
+	        android:layout_width=		"0dp" 
+	        android:layout_height=		"wrap_content"
+	        android:hint=				"cityname"
+	        android:maxLength=			"15"
+	        android:layout_weight=		"1"
+	        />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width=		"match_parent"
+        android:layout_height=		"wrap_content"
+        android:orientation=		"horizontal">
+        
+	    <TextView 
+	        android:id=					"@+id/ttv_missiondescription"
+	        android:layout_width=		"0dp"
+	        android:layout_height=		"wrap_content"
+	        android:text=				"description"
+	        android:layout_weight=		"1"/>
+	    <EditText 
+	        android:id=					"@+id/edt_missiondescription"
+	        android:layout_width=		"0dp" 
+	        android:layout_height=		"wrap_content"
+	        android:hint=				"description"
+	        android:maxLength=			"15"
+	        android:layout_weight=		"1"
+	        />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width=		"match_parent"
+        android:layout_height=		"wrap_content"
+        android:orientation=		"horizontal">
+        
+	    <TextView 
+	        android:id=					"@+id/ttv_category"
+	        android:layout_width=		"0dp"
+	        android:layout_height=		"wrap_content"
+	        android:text=				"category"
+	        android:layout_weight=		"1"/>
+	    <EditText 
+	        android:id=					"@+id/edt_category"
+	        android:layout_width=		"0dp" 
+	        android:layout_height=		"wrap_content"
+	        android:hint=				"category"
+	        android:maxLength=			"15"
+	        android:layout_weight=		"1"
+	        />
+    </LinearLayout>
+</LinearLayout>
